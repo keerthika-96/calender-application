@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(to right, #fce4ec, #e1f5fe, #fff9c4, #c8e6c9, #f3e5f5);
+  font-family: Arial, sans-serif;
+  background-color: #f5d1ff;
+  margin: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 100px;
+  background-color:	#fff5f5;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #4CAF50;
+ 
+  
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  background: #b2f5b1;
+}
+button{
+  padding:8px;
+  margin:2px;
+  background: #f4f5b1;
+}
+
+.current-date {
+  background-color: #ec8b14;
+}
+.monthContainer{
+  background-color: #f1f1f1;
+  border: 10px solid #9d1111;
+  border-radius: 10px 20px ;
+}
+
+#calendarContainer {
+  margin-top: 20px;
+}

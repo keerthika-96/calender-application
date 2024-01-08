@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar Application</title>
+  <link rel="stylesheet" href="C:\Users\ECE\Downloads\call.css">
+  <style>
+    /* Add a flex container to the calendarContainer to display months horizontally */
+    #calendarContainer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px; /* Adjust the gap as needed */
+    }
+
+    .month {
+      width: 220px; /* Set a fixed width for each month container */
+      border: 2px solid #ea6161; /* Add a border for each month container */
+      padding: 15px;
+      margin: 10px; /* Add margin to each month container */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <label for="year">Enter Year:</label>
+      <input type="number" id="year" min="1900" max="2100" placeholder="Enter a year">
+      <button onclick="generateCalendar()">Show Calendar</button>
+    </div>
+    <div id="calendarContainer"></div>
+  </div>
+  <script src="C:\Users\ECE\Downloads\call.js"></script>
+</body>
+</html>
